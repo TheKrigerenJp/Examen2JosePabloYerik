@@ -6,7 +6,7 @@ class MyTestCase(unittest.TestCase):
     ###Jose###
     def test_ObtieneValencia1(self):
         objeto = MiClase(5, 120, 12, ["Canción 1", "Canción 2", "Canción 3"], [0.8, 0.9, 0.7])
-        self.assertEqual(objeto.ObtieneValencia(45786312), 4)  # add assertion here
+        self.assertEqual(objeto.ObtieneValencia(45786312), 5)  # add assertion here
 
     def test_ObtieneValencia2(self):
         objeto = MiClase(5, 120, 12, ["Canción 1", "Canción 2", "Canción 3"], [0.8, 0.9, 0.7])
